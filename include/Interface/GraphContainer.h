@@ -32,7 +32,7 @@ template <typename T, size_t N> class Graph : public MemRef<T, N> {
 	
 		uint16_t graph_type;
 		int64_t edgeCount = 0;
-		std::vector<std::vector<T>> IncidenceMat;
+		std::vector<std::vector<T>>IncidenceMat;
 		Graph(uint16_t graph_type, size_t size);
 		void addEdge(int a, int b);
 		void printGraph();
